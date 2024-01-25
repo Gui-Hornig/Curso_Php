@@ -28,3 +28,14 @@ echo NOME;
 
 
 ?>
+
+
+<?php
+//Declarando Funcoes Nao orientada e Objetos
+
+function printarNome($nome){
+    echo 'Meu nome e' .$nome;
+}
+printarNome(' Ola, Mundo!');
+printarNome('Joao');
+?>
