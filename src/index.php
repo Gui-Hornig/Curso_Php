@@ -18,3 +18,13 @@ echo 'O meu nome é '.$nome
     $nome = 'Guilherme';
     echo "Meu nome é: $nome";
 ?>
+
+
+<?php
+// Declarando constantes
+define('NOME', 'GUILHERME');
+
+echo NOME; 
+
+
+?>
