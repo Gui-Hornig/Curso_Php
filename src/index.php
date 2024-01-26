@@ -17,6 +17,7 @@ echo 'O meu nome é '.$nome
 
     $nome = 'Guilherme';
     echo "Meu nome é: $nome";
+    echo '<hr/>';
 ?>
 
 
@@ -26,7 +27,7 @@ define('NOME', 'GUILHERME');
 
 echo NOME; 
 
-
+echo '<hr/>';
 ?>
 
 
@@ -38,4 +39,5 @@ function printarNome($nome){
 }
 printarNome(' Ola, Mundo!');
 printarNome('Joao');
+echo '<hr/>';
 ?>
